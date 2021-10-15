@@ -23,3 +23,42 @@ canvas{
     width: 100%;
     height: 100%;
 }
+
+i.fas{
+    cursor: pointer;
+    position: absolute;
+    padding: 3px;
+    left: 3%;
+    top: 3%;
+    background-color: transparent;
+    transition: ease-out .25s;
+    border-radius: 10%;
+}
+
+i.fas:hover{
+    color :rgba(146, 212, 126, 0.87);
+}
+i.fas.hidden{
+    transition: ease-in 0.7s;
+    left: -100%;
+}
+
+.controlMenu{
+    width: 25em;
+    height: 17em;
+    background-color: rgba(135, 207, 235, 0.2);
+    border-radius: 10%;
+    position: absolute;
+    top: 2%;
+    left: -100%;
+    transition: ease-in .7s;
+}
+.controlMenu.show{
+    left: 0%;
+    transition: ease-in .7s;
+}
+
+i.fa-times{
+    position: absolute;
+    right: 3%;
+}
