@@ -1,2 +1,2 @@
 # CreativeCoding
-### Practice and clone HTML canvas ! 
+### Practice HTML canvas ! 
