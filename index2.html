@@ -7,13 +7,25 @@
     <title>Wave</title>
     <link rel="stylesheet" type = "text/css" href="css/style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <i class="fas fa-sliders-h fa-3x"></i>
     <div class="controlMenu">
         <i class="fas fa-times fa-2x"></i>
+        <div class="waveNum">
+            <h3>Number of Wave</h3>
+            <input type="range" min = "1" max = "10" value = "5" class="slider" oninput = "rangeValue.innerText = this.value">
+            <div class="sliderTag">
+                <p id="rangeValue">5</p>
+            </div>
+        </div>
     </div>
     <script type="module" src="js/app2.js"></script>
     <script type="module" src="js/controlwave.js"></script>
+
 </body>
 </html>

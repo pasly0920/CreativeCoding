@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     --webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+    font-family: 'Kanit', sans-serif;
 }
 
 html{
@@ -61,4 +62,36 @@ i.fas.hidden{
 i.fa-times{
     position: absolute;
     right: 3%;
+}
+
+.waveNum h3{
+    font-size: 1.5em;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: rgba(146, 212, 126, 0.1);
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sliderTag{
+    position: absolute;
+    top: 30%;
+    right: 7%;
+}
+.sliderTag p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
 }
