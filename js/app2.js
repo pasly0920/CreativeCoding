@@ -35,5 +35,13 @@ class App{
 }
 
 window.onload = () => {
-    new App();
+    let app = new App();
+    console.log(app.waveGroup.totalWaves);
+    //이 안에서 wave와 관련된 것들을 control 
+
+
+
+
+    
 };
+

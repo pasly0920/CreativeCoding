@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- color picker iro.js 사용 -->
 </head>
 <body>
     <i class="fas fa-sliders-h fa-3x"></i>
@@ -18,10 +19,11 @@
         <i class="fas fa-times fa-2x"></i>
         <div class="waveNum">
             <h3>Number of Wave</h3>
-            <input type="range" min = "1" max = "10" value = "5" class="slider" oninput = "rangeValue.innerText = this.value">
+            <input type="range" min = "1" max = "10" value = "3" class="slider" oninput = "rangeValue.innerText = this.value">
             <div class="sliderTag">
-                <p id="rangeValue">5</p>
+                <p id="rangeValue">3</p>
             </div>
+            <!-- iro.js 활용 및 app2.js에서 wave control하기 -->
         </div>
     </div>
     <script type="module" src="js/app2.js"></script>
